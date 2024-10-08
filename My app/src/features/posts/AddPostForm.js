@@ -35,16 +35,6 @@ const [addRequestStatus,setAddRequestStatus]=useState('idle')
      }
     }
 
-    // const onSavePostClicked = () => {
-    //     if (title && content) {
-    //         dispatch(
-    //             postAdded(title, content, userId)
-    //         )
-    //         setTitle('')
-    //         setContent('')
-    //     }
-    // }
-
     const usersOptions = users.map(user => (
         <option key={user.id} value={user.id}>
             {user.name}
